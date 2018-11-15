@@ -1,0 +1,68 @@
+Exercise 1: Change the ODEs into 1st order ODEs
+
+a)
+
+u''(t) = u(t)
+
+Substituting u' = v
+
+--> 	u' = v
+    	v' = u
+
+b) 
+
+M(q)*q'' = N(q,q') + T*tau
+
+q'' = (N(q,q') + T*tau) / M(q)
+
+Substituting q' = r 
+
+--> 	q' = r
+	r' = (N(q,r) + T*tau) / M(q)
+
+
+Exercise 2: 
+
+What happens after changing the iterator from rk4 to euler and tf from 5.0 to 20.0?
+
+--> The rotation starts to swing up above pi/2 as if it would get more momentum. After making a full rotation, it starts to rotate faster and faster.
+
+--> The cause for this is probably that euler is a far less precise integrator: Therefore, the small errors from miscalculations sum up much more quickly and become visible faster.
+
+--> To be more precise, the integrator's errors causes the pendulum to reach higher angles, which "adds (potential) energy" into the system, from which it can go even higher than it should on the other side. 
+
+Exercise 3:
+
+From slides you get the following definitions:
+
+Configuration space:
+
+* The configuration of a robot is a complete specification of the position of every point of the robot.
+
+* The minimum number n of real-valued coordinates needed to represent the configuration is the number of degrees of freedom (dof) of the robot.
+
+* The n-dimensional space containing all possible configurations of the robot is called the CONFIGURATION SPACE (C-space). The configuration of a robot is represented by a point in its C-space
+
+Work space:
+
+* The WORKSPACE is a specification of the configurations that the end-effector of the robot can reach. The definition of the workspace is primarily driven by the robot's structure, independently of the task.
+
+* A point in [...] the workspace may be achievable by more than one robot configuration [...]
+
+---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
