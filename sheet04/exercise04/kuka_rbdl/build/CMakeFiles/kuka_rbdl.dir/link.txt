@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall   CMakeFiles/kuka_rbdl.dir/main.cpp.o  -o kuka_rbdl -rdynamic /usr/local/lib/librbdl.so /usr/local/lib/librbdl_luamodel.so -llua5.1 -lm -Wl,-rpath,/usr/local/lib 
