@@ -298,7 +298,7 @@ VectorXd rhs (double t, const VectorXd &y) {
 	}
 
 	res[4] = y[5];
-	res[5] = -g - k*y[1]*y[1]*sign;
+	res[5] = -g - k*y[5]*y[5]*sign;
 
 	//Air dynamics are also counting for movement in x and y
 
