@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall   CMakeFiles/bouncing_ball.dir/main.cpp.o  -o bouncing_ball -rdynamic 
