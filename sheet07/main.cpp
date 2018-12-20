@@ -70,27 +70,33 @@ Vector6dVector PTP(Vector6d q_start, Vector6d q_end, double dt = 0.01, double a 
 	//Vector6dVectorl; // here i found a little syntax error
 	Vector6dVector l;
 
+	//----------------------------------------
 	Vector6d dq = q_end-q_start;
+	//-------------------------------------------
 	
-	double longestDistance =0; // <<---
+	double longestDistance = 0; // <<--- in sheet07 its dqk
 	
+	//------------------------------------------------------------------
 	// compute longestDistance
 	for(int i=0;i<6;i++){
 		if(dq(i)>longestDistance)
 			longestDistance = dq(i);
 	}
+	//---------------------------------------------------------------------
 	
+	// generating Rampfunction-object for the joint that
+	// travels the longest distance.
 	RampFunction rf(longestDistance,a,vmax);
 	double t_end = rf.getEndTime();
 	
-	//Interpolate here
+	//Interpolate here:
 	for (double t=0; t < t_end; t+=dt) {
-		
-		Vector6d q = q_start; // <<---
-		//for(int i=0;i<6;i++){
-		//	q(i)+=dq(i)*(rf.S(t)/longestDistance);
-		//}
+
+		Vector6d q = q_start; 
+
+		//------------------------------------------------
 		q+=dq*(rf.S(t)/longestDistance);
+		//------------------------------------------------------------
 
 		l.push_back(q);
 	}
