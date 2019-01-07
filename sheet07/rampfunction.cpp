@@ -11,24 +11,28 @@ RampFunction::RampFunction(double s, double a, double vmax) :  t_end(0), t1(0), 
 
 	double scrit = (vmax*vmax/a);
 	
-	
 	// Compute here, t1,t2 and t_end
 	
 	double sabs = std::abs(s);
+
 	if ((vmax*vmax/a) > sabs) { //case b
 		// s is too short, will not reach vmax
-
+		
+		//------------------------------------
 		t1 = sqrt(sabs/a);
 		t2 = t1;
 		t_end = 2*t1;
+		//------------------------------------
 		
 	} else { // (vmax*vmax/a) <= sabs -> case a
 		//reaching vmax;
 		// will flat 
 
+		//-----------------------------
 		t1 = vmax/a;
 		t2 = (sabs-scrit)/(vmax) + t1;
 		t_end = t2+t1;
+		//-----------------------------
 	}
 }
 
@@ -36,6 +40,7 @@ RampFunction::RampFunction(double s, double a, double vmax) :  t_end(0), t1(0), 
 double RampFunction::S(double t) {
 	assert(t<=t_end);// restrict t to t_end?
 	
+	//--------------------------------------------
 	if(t>t2){
 		return a*t1*t1 + (t2-t1)*a*t1 - .5*a*(t_end-t)*(t_end-t);
 	} 
@@ -46,7 +51,8 @@ double RampFunction::S(double t) {
 		return .5*a*t*t;
 	}	
 
-	return 0; // <<--
+	return 0; 
+	//----------------------------------------------------
 }
 
 
