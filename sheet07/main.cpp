@@ -67,7 +67,7 @@ typedef std::vector<datarow_t> Data ;
 
 
 Vector6dVector PTP(Vector6d q_start, Vector6d q_end, double dt = 0.01, double a = 1, double vmax = 2.) {
-	//Vector6dVectorl; // here i found a little syntax error
+	
 	Vector6dVector l;
 
 	//----------------------------------------
