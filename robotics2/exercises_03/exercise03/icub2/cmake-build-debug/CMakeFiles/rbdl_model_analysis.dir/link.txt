@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g  -rdynamic CMakeFiles/rbdl_model_analysis.dir/main.cpp.o  -o rbdl_model_analysis -Wl,-rpath,/usr/local/lib /usr/local/lib/librbdl.so /usr/local/lib/librbdl_luamodel.so -llua5.1 -lm 

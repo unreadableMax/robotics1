@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxl/Documents/exercises_03/exercise03/icub2/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+rbdl/rbdl.h
+-
+rbdl/addons/luamodel/luamodel.h
+-
+

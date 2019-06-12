@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ASSIGNMENT2.dir/src/main_2.2.cc.o  -o assigment_2 
