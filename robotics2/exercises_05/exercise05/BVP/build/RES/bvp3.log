@@ -49,14 +49,14 @@ University of Heidelberg, Germany 00               | |              00
                          total # of rejected steps =         3
 
 >>>>  Wall time statistics:
-                      Sensitivity generation (IND) = 00:00.000 ( 4.06%)
+                      Sensitivity generation (IND) = 00:00.000 ( 4.13%)
                       Integration of inhomogeneity = 00:00.000 ( 0.00%)
-                                 State integration = 00:00.000 ( 0.39%)
-                              Constraint reduction = 00:00.000 ( 0.19%)
-                                        Condensing = 00:00.000 ( 7.08%)
-                         Solution of condensed QPs = 00:00.000 ( 4.42%)
-                            Remaining calculations = 00:00.005 (83.86%)
-                                             Total = 00:00.006
+                                 State integration = 00:00.000 ( 0.47%)
+                              Constraint reduction = 00:00.000 ( 0.17%)
+                                        Condensing = 00:00.000 ( 7.92%)
+                         Solution of condensed QPs = 00:00.000 ( 4.57%)
+                            Remaining calculations = 00:00.004 (82.74%)
+                                             Total = 00:00.005
 
-                                   Online graphics = 00:00.187 (96.80%)
-                                       Grand Total = 00:00.193
+                                   Online graphics = 00:00.202 (97.51%)
+                                       Grand Total = 00:00.207

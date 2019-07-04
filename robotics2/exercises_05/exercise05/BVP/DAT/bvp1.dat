@@ -33,8 +33,11 @@ s_spec
 *start values for algorithm->differential multiple shooting node 
 *value at time point tij on model stage i
 sd(*,*)
-0: 0.0	*0: __
-1: 1.0	*1: __
+0: 0.0
+1: -1.0
+*ALL: 0.01
+*0: 0.0	
+*1: 1.0	
 
 sd_sca(*,*)
 0: 10.0

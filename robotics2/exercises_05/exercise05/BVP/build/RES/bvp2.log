@@ -28,37 +28,37 @@ University of Heidelberg, Germany 00               | |              00
 (no constraint relaxation)
 
 >>>>  Parameters of Hessian approximation method (BFGS update with Powell modification):
-                              initial trust radius = 0.0353559
-                   initial diagonal scaling factor =   3.26593
+                              initial trust radius = 3.59806E-06
+                   initial diagonal scaling factor =   32092.4
 
 >>>>  SQP iterations
 
  it qpit qpf   kkttol          sobj   |sinf|  |vstep|  |vstpr| |mulstp|       |lgrd|    alpha         merit crit stat
-  0                    2.028966E-11 6.37E-06
+  0                    3.751798E-13 8.66E-07
 
 
 ****
 **** SQP iteration 0
 ****
 (no constraint relaxation)
-  1    1 A   4.95E-11  4.776413E-24 3.09E-12 4.71E-06 0.00E+00 7.22E-06 6.370193E-06 1.00E+00  2.095166E-17  REL SUCC
+  1    1 A   6.01E-09  4.788404E-20 3.09E-10 6.12E-07 0.00E+00 1.39E-02 8.683361E-07 1.00E+00  2.470796E-12  REL SUCC
 
 ****  convergence achieved  ****
 
 >>>>  Operation counts for ODE solver RKF45S:
-                   total # of function evaluations =       609
-                      total # of integration steps =        58
+                   total # of function evaluations =       143
+                      total # of integration steps =        12
                          total # of rejected steps =         3
 
 >>>>  Wall time statistics:
-                      Sensitivity generation (IND) = 00:00.000 ( 4.22%)
+                      Sensitivity generation (IND) = 00:00.000 ( 1.43%)
                       Integration of inhomogeneity = 00:00.000 ( 0.00%)
-                                 State integration = 00:00.000 ( 0.22%)
-                              Constraint reduction = 00:00.000 ( 0.16%)
-                                        Condensing = 00:00.001 ( 6.31%)
-                         Solution of condensed QPs = 00:00.000 ( 4.10%)
-                            Remaining calculations = 00:00.009 (84.97%)
-                                             Total = 00:00.011
+                                 State integration = 00:00.000 ( 0.14%)
+                              Constraint reduction = 00:00.000 ( 0.15%)
+                                        Condensing = 00:00.001 ( 6.97%)
+                         Solution of condensed QPs = 00:00.000 ( 4.63%)
+                            Remaining calculations = 00:00.007 (86.69%)
+                                             Total = 00:00.008
 
-                                   Online graphics = 00:00.173 (93.97%)
-                                       Grand Total = 00:00.185
+                                   Online graphics = 00:00.172 (95.47%)
+                                       Grand Total = 00:00.180
