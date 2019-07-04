@@ -1,0 +1,67 @@
+                  ___                
+This is MUSCOD-II (Release 6.0, Revision unknown) |\    /| |    | /   \ 000000        
+Copyright (C) 1995--2011, Simulation and Optimization Group |  \/  | |    | `---.       000     
+ |      |  \__/  \___/          00   
+Interdisciplinary Center for Scientific Computing (IWR)                                  00 
+University of Heidelberg, Germany 00               | |              00
+ 00               | |              00
+ + MS-MINTOC extensions for mixed-integer optimal control  00              ___    ___    ___  
+ + PRSQP Partially Reduced SQP Version [ ]    00           /   \  /   \  |   \ 
+ + Algorithmic Extensions [ CLSQ LSQ ]      000       |      |     | |    |
+ + DEBUG enabled         000000  \___/  \___/  |___/ 
+
+
+>>>>  Dimensions of structured NLP problem:
+                   # of discretization points NDIS =        16
+                               # of variables NVAR =        32
+                    # of equality constraints NEQ  =        32 (32 + 0)
+                  # of inequality constraints NIN  =        64 (0 + 32*2)
+
+>>>>  Parameters of MSSQP method:
+                final accuracy of NLP solution ACC =  1.00E-06
+                 initial integration tolerance     =  1.00E-08
+  # of homotopy steps in integration tolerance     =         0
+                   final integration tolerance TOL =  1.00E-08
+    regularization factor (as multiple of ACC)     =  0.00E+00
+    Levenberg Marquardt hessian regularization     =  0.00E+00
+                   maximum # of SQP iterations     =       100
+
+>>>>  Parameters of Hessian approximation method (BFGS update with Powell modification):
+                              initial trust radius =  0.901729
+                   initial diagonal scaling factor =   8.47954
+
+>>>>  SQP iterations
+
+ it qpit qpf   kkttol          sobj   |sinf|  |vstep|  |vstpr| |mulstp|       |lgrd|    alpha         merit crit stat
+  0                    5.438351E-01 1.04E+00
+
+
+****
+**** SQP iteration 0
+****
+  1    2 A R 2.97E-01  5.013782E-01 1.00E+00 4.51E-01 0.00E+00 5.59E+01 6.621850E+00 1.00E+00  6.334177E-01  REL SUCC
+
+
+****
+**** SQP iteration 1
+****
+
+****  terminated due to an error  ****
+
+>>>>  Operation counts for ODE solver RKF45S:
+                   total # of function evaluations =      4937
+                      total # of integration steps =       319
+                         total # of rejected steps =       118
+
+>>>>  Wall time statistics:
+                      Sensitivity generation (IND) = 00:00.002 ( 6.87%)
+                      Integration of inhomogeneity = 00:00.000 ( 0.00%)
+                                 State integration = 00:00.000 ( 0.55%)
+                              Constraint reduction = 00:00.000 ( 0.26%)
+                                        Condensing = 00:00.002 ( 7.02%)
+                         Solution of condensed QPs = 00:00.001 ( 2.34%)
+                            Remaining calculations = 00:00.019 (82.96%)
+                                             Total = 00:00.023
+
+                                   Online graphics = 00:00.216 (90.33%)
+                                       Grand Total = 00:00.239

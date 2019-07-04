@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -fmessage-length=0 -pthread  -shared -Wl,-soname,libbvp3.so -o libbvp3.so CMakeFiles/bvp3.dir/SRC/bvp3.cc.o  -L/export/home/ROB/ROB001/software/MUSCOD-II/MC2/Debug/lib64  -L/export/home/ROB/ROB001/software/MUSCOD-II/Packages/LIBLAC/Debug/lib64  -L/export/home/ROB/ROB001/software/MUSCOD-II/Packages/COMMON_CODE/Debug/lib64 

@@ -2,7 +2,6 @@
 nshoot
 0: 1 *0: __
 
-
 *  model stage duration start values, scale factors, and bounds 
 h 
 0: 4.71238898     *0: __
@@ -16,11 +15,9 @@ h_min
 h_max
 0: 10.0
 
-
 *  model stage duration fixed value flags
 h_fix
 0: 1
-
 
 *  differential state start values, scale factors, and bounds
 
@@ -31,12 +28,13 @@ h_fix
 
 ∗ mode for differnetial state variable start values
 s_spec
-1     *__
+2     *__
 
-*start values for algorithm->differential multiple shooting node value at time point tij on model stage i
+*start values for algorithm->differential multiple shooting node 
+*value at time point tij on model stage i
 sd(*,*)
-0: 0	*0: __
-1: 1	*1: __
+0: 0.0	*0: __
+1: 1.0	*1: __
 
 sd_sca(*,*)
 0: 10.0
