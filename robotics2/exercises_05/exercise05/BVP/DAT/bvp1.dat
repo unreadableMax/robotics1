@@ -13,7 +13,7 @@ h_min
 0: 0.0
 
 h_max
-0: 10.0
+0: 5.7123    *10.0
 
 *  model stage duration fixed value flags
 h_fix
@@ -34,7 +34,8 @@ s_spec
 *value at time point tij on model stage i
 sd(*,*)
 0: 0.0
-1: -1.0
+1: 1.0
+
 *ALL: 0.01
 *0: 0.0	
 *1: 1.0	

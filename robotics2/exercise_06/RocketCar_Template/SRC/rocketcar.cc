@@ -53,7 +53,7 @@ static void mfcn(double *ts, double *xd, double *xa, double *p, double *pr,
       *dpnd = MFCN_DPND(*ts, 0, 0, 0, 0);
       return;
   }
-  *mval = xd[2];
+  //*mval = ___;
 }
 
 /** \brief Right hand side of the differential equation */

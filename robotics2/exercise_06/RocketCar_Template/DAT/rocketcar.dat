@@ -23,10 +23,10 @@ h_sca
 0: 32.0
 
 h_min
-0: 0
+0: 0.0
 
 h_max
-0: 10
+0: 32.0
 
 
 *  model stage duration fixed value flags
