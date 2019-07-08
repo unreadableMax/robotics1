@@ -73,8 +73,8 @@ static void rdfcn_s(double *ts, double *sd, double *sa, double *u,
     return;
   }
 
-  res[0] = 0;
-  res[1] = 0;
+  res[0] = sd[0];
+  res[1] = sd[1];
 }
 
 /** \brief Constraints at the end point */
@@ -86,8 +86,8 @@ static void rdfcn_e(double *ts, double *sd, double *sa, double *u,
     return;
   }
 
-  res[0] = 300;
-  res[1] = 0;
+  res[0] = sd[0]-300;
+  res[1] = sd[0];
 }
 
 /** \brief Entry point for the muscod application */
