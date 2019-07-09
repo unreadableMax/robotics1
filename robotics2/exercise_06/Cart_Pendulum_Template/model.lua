@@ -4,7 +4,7 @@ require 'SRC.strict'
 
 function get_sphere_inertia (mass, radius)
     local val
-    val = ____
+    val = 2.0/5.0 * mass * radius * radius --
     return {
         {val, 0.0, 0.0},
         {0.0, val, 0.0},
@@ -14,9 +14,9 @@ end
 
 function get_box_inertia (mass, width, height, depth)
     local valx, valy, valz
-    valx = ___
-    valy = ___
-    valz = ___
+    valx = mass/12.0 * (depth*depth + height*height)--
+    valy = mass/12.0 * (width*width + height*height)--
+    valz = mass/12.0 * (width*width + depth*depth)--
     return {
         {valx,  0.0,  0.0},
         { 0.0, valy,  0.0},
