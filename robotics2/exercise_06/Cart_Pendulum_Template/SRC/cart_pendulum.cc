@@ -105,7 +105,7 @@ static void ffcn (double *t, double *xd, double *xa, double *u,
     updateState (xd, u);
     
     // Compute Forward Dynamics with RBDL
-    ForwardDynamics(model,Q,QDOT,TAU,QDDOT);
+    ForwardDynamics(*model,Q,QDOT,TAU,QDDOT);
     //_____________________________;
 
     for (unsigned int i = 0; i < nDof; i++) {
@@ -274,7 +274,7 @@ void def_model(void)
     def_mstage(
             0,
             NXD, NXA, NU,
-            NULL, lfcn,   // mayer term, lagrange term
+            NULL, lfcn_energy,   // mayer term, lagrange term
             0, 0, 0, NULL, ffcn, NULL,
             NULL, NULL
             );
