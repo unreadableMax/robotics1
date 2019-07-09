@@ -24,20 +24,20 @@ using namespace std;
 
 // Global Definitions
 
-int NMOS   =  _;  /* Number of phases (MOdel Stages) */
+int NMOS   =  1;  /* ___Number of phases (MOdel Stages) */
 int NP     =  0;  /* Number of parameters */
 int NRC    =  0;  /* Number of coupled constraints */
 int NRCE   =  0;  /* Number of coupled equality constraints */
 
-int NXD    =  _;  /* Number of differential states */
+int NXD    =  4;  /* ___Number of differential states */
 int NXA    =  0;  /* Number of algebraic states */
-int NU     =  _;  /* Number of controls */
+int NU     =  1;  /* ___Number of controls */
 int NPR    =  0;  /* Number of local parameters */
 
 // Variables
 
 Model *model = NULL;
-string model_file_name  ="_______";
+string model_file_name  ="model.lua";//"_______";
 string meshup_file_name = "meshup_cart_pendulum.csv";
 
 VectorNd Q, QDOT, QDDOT, TAU;
@@ -54,17 +54,17 @@ unsigned int nActuatedDof;
 // update RBDL vectors
 static void updateState (const double *sd, const double *u=NULL)
 {
-    Q   [0] = ___;
-    Q   [1] = ___;
-    QDOT[0] = ___;
-    QDOT[1] = ___;
+    Q   [0] = sd[0]; //___
+    Q   [1] = sd[1];//___
+    QDOT[0] = sd[2];//___
+    QDOT[1] = sd[3];//___
 
     TAU[0]  = 0.0;
     TAU[1]  = 0.0;
 
     if (u)
     {
-        TAU[0] = ___;
+        TAU[0] = u[0];//___
     }
 }
 
@@ -79,7 +79,7 @@ static void lfcn_energy(double *t, double *xd, double *xa, double *u,
   double *p, double *lval, double *rwh, long *iwh, InfoPtr *info) {
     int i;
 
-    *lval = ___;
+    *lval = u[0]*u[0];//__
 
 }
 
@@ -90,7 +90,7 @@ static void mfcn_end_time(double *ts, double *xd, double *xa, double *p, double 
       *dpnd = MFCN_DPND(*ts, 0, 0, 0, 0);
       return;
   }
-  *mval = ___;
+  *mval = *ts;//__
 }
 
 // ********************************o
@@ -105,11 +105,12 @@ static void ffcn (double *t, double *xd, double *xa, double *u,
     updateState (xd, u);
     
     // Compute Forward Dynamics with RBDL
-    _____________________________;
+    ForwardDynamics(model,Q,QDOT,TAU,QDDOT);
+    //_____________________________;
 
     for (unsigned int i = 0; i < nDof; i++) {
-        rhs[i]        = ___;
-        rhs[i + nDof] = ___;
+        rhs[i]        = QDOT[i];//___;
+        rhs[i + nDof] = QDDOT[i];//___;
     }
 }
 
@@ -129,10 +130,11 @@ static void rdfcn_s(double *ts, double *sd, double *sa, double *u,
         return;
     }
     updateState (sd, NULL);
-    res[0] = ( ___ ) * 100; // = 0 (* 100 just for scaling reasons)
-    res[1] = ( ___ ) * 100; // = 0
-    res[2] = ( ___ ) * 100; // = 0
-    res[3] = ( ___ ) * 100; // = 0
+     //fill in...
+    res[0] = ( Q[0] ) * 100; // = 0 (* 100 just for scaling reasons)
+    res[1] = ( Q[1] -3.14159265) * 100; // = 0
+    res[2] = ( QDOT[0] ) * 100; // = 0
+    res[3] = ( QDOT[1] ) * 100; // = 0
 }
 
 /// \brief Constraints at end point */
@@ -145,10 +147,11 @@ static void rdfcn_e(double *ts, double *sd, double *sa, double *u,
         return;
     }
     updateState (sd, NULL);
-    res[0] = ( ___ ) * 100; // = 0 (* 100 just for scaling reasons)
-    res[1] = ( ___ ) * 100; // = 0
-    res[2] = ( ___ ) * 100; // = 0
-    res[3] = ( ___ ) * 100; // = 0
+    //fill in...
+    res[0] = ( Q[0] ) * 100; // = 0 (* 100 just for scaling reasons)
+    res[1] = ( Q[1] ) * 100; // = 0
+    res[2] = ( QDOT[0] ) * 100; // = 0
+    res[3] = ( QDOT[1] ) * 100; // = 0
 }
 
 
@@ -258,7 +261,7 @@ void def_model(void)
     assert (model->dof_count == 2);
 
     nDof = model->dof_count;
-    nActuatedDof = ___;
+    nActuatedDof = 1;//___;
 
     Q     = VectorNd::Zero(model->dof_count);
     QDOT  = VectorNd::Zero(model->dof_count);
@@ -271,7 +274,7 @@ void def_model(void)
     def_mstage(
             0,
             NXD, NXA, NU,
-            ___, ___,   // mayer term, lagrange term
+            NULL, lfcn,   // mayer term, lagrange term
             0, 0, 0, NULL, ffcn, NULL,
             NULL, NULL
             );
