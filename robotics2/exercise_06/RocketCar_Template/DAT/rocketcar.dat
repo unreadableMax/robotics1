@@ -26,12 +26,12 @@ h_min
 0: 0.0
 
 h_max
-0: 33.0   *32.0
+0: 40.0   *c) 40, sonst 32.0-> bang bang control
 
 
-*  model stage duration fixed value flags
+*  model stage duration fixed flag c)-> zero for mayer term?
 h_fix
-0: 1
+0: 1 
 
 
 *  differential state start values, scale factors, and bounds
@@ -81,7 +81,9 @@ u_min(*,*)
 
 u_max(*,*)
 0: 1.0
-
+* b) 0.8->längere a-phase, 300m werden nicht ganz erreicht
+* b)&c) 0.5->muscod bricht ab, die 32 sekunden reichen nicht mehr aus um 300m zu erreichen
+* c) bei 1 schaffen wir es in 30 sec, bei .5 in ca 34 sec
 
 *  decoupled i.p.c. scale factors
 rd_sca(0,S)

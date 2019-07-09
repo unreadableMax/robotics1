@@ -53,7 +53,7 @@ static void mfcn(double *ts, double *xd, double *xa, double *p, double *pr,
       *dpnd = MFCN_DPND(*ts, 0, 0, 0, 0);
       return;
   }
-  //*mval = ___;
+  *mval = *ts; //minimize time
 }
 
 /** \brief Right hand side of the differential equation */
@@ -87,7 +87,7 @@ static void rdfcn_e(double *ts, double *sd, double *sa, double *u,
   }
 
   res[0] = sd[0]-300;
-  res[1] = sd[0];
+  res[1] = sd[1];
 }
 
 /** \brief Entry point for the muscod application */
