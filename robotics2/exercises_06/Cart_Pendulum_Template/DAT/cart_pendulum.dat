@@ -4,7 +4,7 @@
 
 *  # of multiple shooting intervals on model stages
 nshoot
-0: 20
+0: 20    *oroginal value: 20
 
 * specification mode for state variable start values
 * 0 : all values sd(*,*), sa(*,*) specified in data file

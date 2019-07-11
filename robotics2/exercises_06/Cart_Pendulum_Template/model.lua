@@ -45,7 +45,7 @@ pend_com = {
 
 bodies = {
     cart     = {mass = cart_m, com = cart_com, inertia = get_box_inertia(cart_m,cart_w,cart_h,cart_d)},
-    pendulum = {mass = pend_m, com = pend_com, inertia = get_sphere_inertia(pend_m,pend_r) + pend_m*pend_l*pend_l},
+    pendulum = {mass = pend_m, com = pend_com, inertia = get_sphere_inertia(pend_m,pend_r) }--+ pend_m*pend_l*pend_l
 }
 
 meshes = {

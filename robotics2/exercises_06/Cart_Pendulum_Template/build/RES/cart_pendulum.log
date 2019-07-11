@@ -10,3 +10,18 @@ University of Heidelberg, Germany 00               | |              00
  + Algorithmic Extensions [ CLSQ LSQ ]      000       |      |     | |    |
  + DEBUG enabled         000000  \___/  \___/  |___/ 
 
+
+>>>>  Dimensions of structured NLP problem:
+                   # of discretization points NDIS =        11
+                               # of variables NVAR =        65
+                    # of equality constraints NEQ  =        57 (48 + 9)
+                  # of inequality constraints NIN  =       130 (0 + 65*2)
+
+>>>>  Parameters of MSSQP method:
+                final accuracy of NLP solution ACC =  1.00E-05
+                 initial integration tolerance     =  1.00E-07
+  # of homotopy steps in integration tolerance     =         0
+                   final integration tolerance TOL =  1.00E-07
+    regularization factor (as multiple of ACC)     =  0.00E+00
+    Levenberg Marquardt hessian regularization     =  0.00E+00
+                   maximum # of SQP iterations     =      1000
