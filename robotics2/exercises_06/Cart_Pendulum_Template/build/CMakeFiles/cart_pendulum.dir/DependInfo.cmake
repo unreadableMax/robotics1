@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/SRC/cart_pendulum.cc" "/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/cart_pendulum.dir/SRC/cart_pendulum.cc.o"
+  "/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/SRC/cart_pendulum.cc" "/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/cart_pendulum.dir/SRC/cart_pendulum.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

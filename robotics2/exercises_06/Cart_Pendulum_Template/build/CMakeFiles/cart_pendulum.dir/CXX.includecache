@@ -288,11 +288,11 @@ rbdl/rbdl_config.h
 rbdl/rbdl_math.h
 -
 
-/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/SRC/cart_pendulum.cc
+/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/SRC/cart_pendulum.cc
 cmath
 -
 def_usrmod.hpp
-/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/SRC/def_usrmod.hpp
+/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/SRC/def_usrmod.hpp
 iostream
 -
 iomanip
@@ -310,15 +310,15 @@ sys/types.h
 sys/wait.h
 -
 rbdl/rbdl.h
-/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/SRC/rbdl/rbdl.h
+/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/SRC/rbdl/rbdl.h
 rbdl/addons/luamodel/luamodel.h
 -
 rbdl/addons/luamodel/luatables.h
 -
 datfileutils.h
-/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/SRC/datfileutils.h
+/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/SRC/datfileutils.h
 
-/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/SRC/datfileutils.h
+/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/SRC/datfileutils.h
 cstdlib
 -
 iostream

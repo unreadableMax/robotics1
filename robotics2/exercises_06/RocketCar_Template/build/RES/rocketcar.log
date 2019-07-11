@@ -81,14 +81,14 @@ RECALC_QP (1 of max 5; number of possible active bounds sd = 2, sa = 0)
                          total # of rejected steps =         0
 
 >>>>  Wall time statistics:
-                      Sensitivity generation (IND) = 00:00.002 ( 8.82%)
+                      Sensitivity generation (IND) = 00:00.001 ( 9.70%)
                       Integration of inhomogeneity = 00:00.000 ( 0.00%)
-                                 State integration = 00:00.000 ( 1.68%)
-                              Constraint reduction = 00:00.000 ( 0.72%)
-                                        Condensing = 00:00.009 (48.71%)
-                         Solution of condensed QPs = 00:00.002 ( 9.23%)
-                            Remaining calculations = 00:00.006 (30.84%)
-                                             Total = 00:00.018
+                                 State integration = 00:00.000 ( 3.11%)
+                              Constraint reduction = 00:00.000 ( 0.77%)
+                                        Condensing = 00:00.006 (58.07%)
+                         Solution of condensed QPs = 00:00.001 ( 7.64%)
+                            Remaining calculations = 00:00.002 (20.70%)
+                                             Total = 00:00.010
 
-                                   Online graphics = 00:00.216 (92.31%)
-                                       Grand Total = 00:00.234
+                                   Online graphics = 00:00.034 (77.82%)
+                                       Grand Total = 00:00.044

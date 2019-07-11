@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/3.7.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/3.7.2/CompilerIdC/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf3a6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf3a6.dir/build.make CMakeFiles/cmTC_cf3a6.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf3a6.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_cf3a6.dir/testCXXCompiler.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_cf3a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf3a6.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_cf3a6.dir/testCXXCompiler.cxx.o  -o cmTC_cf3a6 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_806e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_806e6.dir/build.make CMakeFiles/cmTC_806e6.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_806e6.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_806e6.dir/testCXXCompiler.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_806e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_806e6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_806e6.dir/testCXXCompiler.cxx.o  -o cmTC_806e6 -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98902/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98902.dir/build.make CMakeFiles/cmTC_98902.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_98902
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98902.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98902 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_e0fad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0fad.dir/build.make CMakeFiles/cmTC_e0fad.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e0fad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0fad.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0fad -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98902' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyGjKOE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_98902 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98902' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0fad' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7aCZmC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e0fad /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0fad' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98902/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98902.dir/build.make CMakeFiles/cmTC_98902.dir/build]
-  ignore line: [make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_98902]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98902.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98902 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e0fad/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e0fad.dir/build.make CMakeFiles/cmTC_e0fad.dir/build]
+  ignore line: [make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e0fad]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0fad.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0fad -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98902' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyGjKOE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_98902 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0fad' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7aCZmC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e0fad /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccyGjKOE.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7aCZmC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_98902] ==> ignore
+    arg [cmTC_e0fad] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_98902.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e0fad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -151,17 +151,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea9d9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea9d9.dir/build.make CMakeFiles/cmTC_ea9d9.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ea9d9.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_ea9d9.dir/feature_tests.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ea9d9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea9d9.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_ea9d9.dir/feature_tests.cxx.o  -o cmTC_ea9d9 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c5e37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5e37.dir/build.make CMakeFiles/cmTC_c5e37.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5e37.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_c5e37.dir/feature_tests.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c5e37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5e37.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c5e37.dir/feature_tests.cxx.o  -o cmTC_c5e37 -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -224,17 +224,17 @@ make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a892/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a892.dir/build.make CMakeFiles/cmTC_0a892.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0a892.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_0a892.dir/feature_tests.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0a892
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a892.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_0a892.dir/feature_tests.cxx.o  -o cmTC_0a892 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_86009/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86009.dir/build.make CMakeFiles/cmTC_86009.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86009.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_86009.dir/feature_tests.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_86009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86009.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_86009.dir/feature_tests.cxx.o  -o cmTC_86009 -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -297,17 +297,17 @@ make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09670/fast"
-/usr/bin/make -f CMakeFiles/cmTC_09670.dir/build.make CMakeFiles/cmTC_09670.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_09670.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_09670.dir/feature_tests.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_09670
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09670.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_09670.dir/feature_tests.cxx.o  -o cmTC_09670 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3cfef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cfef.dir/build.make CMakeFiles/cmTC_3cfef.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3cfef.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_3cfef.dir/feature_tests.cxx.o -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3cfef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cfef.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_3cfef.dir/feature_tests.cxx.o  -o cmTC_3cfef -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -368,30 +368,30 @@ make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the C compiler works passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_821cb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_821cb.dir/build.make CMakeFiles/cmTC_821cb.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_821cb.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_821cb.dir/testCCompiler.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_821cb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_821cb.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_821cb.dir/testCCompiler.c.o  -o cmTC_821cb -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9357b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9357b.dir/build.make CMakeFiles/cmTC_9357b.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9357b.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9357b.dir/testCCompiler.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9357b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9357b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9357b.dir/testCCompiler.c.o  -o cmTC_9357b -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3e8a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3e8a.dir/build.make CMakeFiles/cmTC_e3e8a.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e3e8a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3e8a.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o  -o cmTC_e3e8a -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_da00d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da00d.dir/build.make CMakeFiles/cmTC_da00d.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_da00d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da00d.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o  -o cmTC_da00d -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -401,24 +401,24 @@ Thread model: posix
 gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e3e8a' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cctmxP2g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e3e8a /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e3e8a' '-rdynamic' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da00d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvKnVUy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_da00d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da00d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e3e8a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e3e8a.dir/build.make CMakeFiles/cmTC_e3e8a.dir/build]
-  ignore line: [make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e3e8a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3e8a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o  -o cmTC_e3e8a -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_da00d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_da00d.dir/build.make CMakeFiles/cmTC_da00d.dir/build]
+  ignore line: [make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_da00d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da00d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o  -o cmTC_da00d -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -428,13 +428,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e3e8a' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cctmxP2g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e3e8a /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da00d' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvKnVUy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_da00d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cctmxP2g.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvKnVUy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -451,7 +451,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e3e8a] ==> ignore
+    arg [cmTC_da00d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
@@ -463,7 +463,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_e3e8a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_da00d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -495,17 +495,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb260/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb260.dir/build.make CMakeFiles/cmTC_cb260.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cb260.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_cb260.dir/feature_tests.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cb260
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb260.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_cb260.dir/feature_tests.c.o  -o cmTC_cb260 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_acbb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acbb3.dir/build.make CMakeFiles/cmTC_acbb3.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acbb3.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_acbb3.dir/feature_tests.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_acbb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acbb3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_acbb3.dir/feature_tests.c.o  -o cmTC_acbb3 -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -515,17 +515,17 @@ make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_912cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_912cf.dir/build.make CMakeFiles/cmTC_912cf.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_912cf.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_912cf.dir/feature_tests.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_912cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_912cf.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_912cf.dir/feature_tests.c.o  -o cmTC_912cf -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e1a4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1a4b.dir/build.make CMakeFiles/cmTC_e1a4b.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1a4b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_e1a4b.dir/feature_tests.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e1a4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1a4b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e1a4b.dir/feature_tests.c.o  -o cmTC_e1a4b -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -535,17 +535,17 @@ make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3e2e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3e2e2.dir/build.make CMakeFiles/cmTC_3e2e2.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3e2e2.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_3e2e2.dir/feature_tests.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3e2e2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e2e2.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3e2e2.dir/feature_tests.c.o  -o cmTC_3e2e2 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1249e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1249e.dir/build.make CMakeFiles/cmTC_1249e.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1249e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_1249e.dir/feature_tests.c.o   -c /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1249e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1249e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1249e.dir/feature_tests.c.o  -o cmTC_1249e -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -553,86 +553,86 @@ make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9ed5f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ed5f.dir/build.make CMakeFiles/cmTC_9ed5f.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9ed5f.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_9ed5f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9ed5f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ed5f.dir/link.txt --verbose=1
-/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_9ed5f.dir/CheckFunctionExists.c.o  -o cmTC_9ed5f -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_518df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_518df.dir/build.make CMakeFiles/cmTC_518df.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_518df.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_518df.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_518df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_518df.dir/link.txt --verbose=1
+/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_518df.dir/CheckFunctionExists.c.o  -o cmTC_518df -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9fac4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9fac4.dir/build.make CMakeFiles/cmTC_9fac4.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9fac4.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_9fac4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9fac4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fac4.dir/link.txt --verbose=1
-/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_9fac4.dir/CheckFunctionExists.c.o  -o cmTC_9fac4 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5de7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5de7a.dir/build.make CMakeFiles/cmTC_5de7a.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5de7a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_5de7a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5de7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5de7a.dir/link.txt --verbose=1
+/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_5de7a.dir/CheckFunctionExists.c.o  -o cmTC_5de7a -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_20335/fast"
-/usr/bin/make -f CMakeFiles/cmTC_20335.dir/build.make CMakeFiles/cmTC_20335.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_20335.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_20335.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_20335
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20335.dir/link.txt --verbose=1
-/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_20335.dir/CheckFunctionExists.c.o  -o cmTC_20335 -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_542fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_542fd.dir/build.make CMakeFiles/cmTC_542fd.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_542fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_542fd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_542fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_542fd.dir/link.txt --verbose=1
+/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_542fd.dir/CheckFunctionExists.c.o  -o cmTC_542fd -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d6ca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2d6ca.dir/build.make CMakeFiles/cmTC_2d6ca.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2d6ca.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_2d6ca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2d6ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d6ca.dir/link.txt --verbose=1
-/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_2d6ca.dir/CheckFunctionExists.c.o  -o cmTC_2d6ca -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b00f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b00f5.dir/build.make CMakeFiles/cmTC_b00f5.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b00f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_b00f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b00f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b00f5.dir/link.txt --verbose=1
+/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_b00f5.dir/CheckFunctionExists.c.o  -o cmTC_b00f5 -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_361af/fast"
-/usr/bin/make -f CMakeFiles/cmTC_361af.dir/build.make CMakeFiles/cmTC_361af.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_361af.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_361af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_361af
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_361af.dir/link.txt --verbose=1
-/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_361af.dir/CheckFunctionExists.c.o  -o cmTC_361af -rdynamic 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7be04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7be04.dir/build.make CMakeFiles/cmTC_7be04.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7be04.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_7be04.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7be04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7be04.dir/link.txt --verbose=1
+/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_7be04.dir/CheckFunctionExists.c.o  -o cmTC_7be04 -rdynamic 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
+Change Dir: /export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6aa72/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6aa72.dir/build.make CMakeFiles/cmTC_6aa72.dir/build
-make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6aa72.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_6aa72.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6aa72
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa72.dir/link.txt --verbose=1
-/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_6aa72.dir/CheckFunctionExists.c.o  -o cmTC_6aa72 -rdynamic -lICE 
-make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercise_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3eb62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3eb62.dir/build.make CMakeFiles/cmTC_3eb62.dir/build
+make[1]: Entering directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3eb62.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_3eb62.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3eb62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb62.dir/link.txt --verbose=1
+/usr/bin/cc   -fmessage-length=0 -pthread -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_3eb62.dir/CheckFunctionExists.c.o  -o cmTC_3eb62 -rdynamic -lICE 
+make[1]: Leaving directory '/export/home/ROB/ROB007/robotics1/robotics2/exercises_06/Cart_Pendulum_Template/build/CMakeFiles/CMakeTmp'
 
 
