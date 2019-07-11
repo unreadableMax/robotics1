@@ -77,6 +77,7 @@ udot(*,*)
 
 *  control scale factors and bounds
 
+*overheating engine: 1.0 ->  10.0
 u_sca(*,*)
  0: 1.0
 
@@ -114,7 +115,7 @@ of_name
 !
 
 *  objective scale and expected range; # of values in history plot
-of_sca
+of_sca   *overheating engine: 1000 ->  1  
 1000
 
 of_min
